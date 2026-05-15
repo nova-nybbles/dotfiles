@@ -2,12 +2,19 @@
 bun = "latest"
 "cargo:bluetui" = "latest"
 chezmoi = "latest"
+erlang = "latest"
 fnox = "latest"
 go = "latest"
+lua = "latest"
 node = "latest"
 "npm:@devcontainers/cli" = "latest"
+pitchfork = "latest"
 rust = "latest"
+usage = "latest"
+uv = "latest"
 zig = "latest"
+elixir = "latest"
+communique = "latest"
 
 [settings]
 

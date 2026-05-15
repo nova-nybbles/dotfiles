@@ -8,6 +8,7 @@
 		"cachyos",
 		"chezmoi",
 		"fira",
+		"healthcheck",
 		"noisetorch",
 		"prismlauncher",
 		"vesktop"
@@ -35,4 +36,7 @@
 	"window.titleBarStyle": "custom", // make the window's titlebar use the workbench colors
 	"workbench.colorTheme": "Catppuccin Mocha",
 	"workbench.iconTheme": "catppuccin-mocha",
+	"docker.extension.enableComposeLanguageServer": false,
+	"claudeCode.preferredLocation": "panel",
+	"claudeCode.useTerminal": true,
 }
