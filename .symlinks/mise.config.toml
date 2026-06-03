@@ -6,7 +6,7 @@ erlang = "latest"
 fnox = "latest"
 go = "latest"
 lua = "latest"
-node = "latest"
+node = { version = "latest", postinstall = "npm install -g @anthropic/claude-code" }
 "npm:@devcontainers/cli" = "latest"
 pitchfork = "latest"
 rust = "latest"
@@ -15,8 +15,17 @@ uv = "latest"
 zig = "latest"
 elixir = "latest"
 communique = "latest"
+watchexec = "latest"
+gleam = "latest"
 
 [settings]
+experimental = true
+minimum_release_age = "30d"
+color_theme = "catppuccin"
 
 [settings.npm]
 bun = true
+
+[tasks.printenv]
+description = "Debugging task to print set environmental variables set by mise"
+run = "printenv"

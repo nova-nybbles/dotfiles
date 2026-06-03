@@ -39,4 +39,5 @@
 	"docker.extension.enableComposeLanguageServer": false,
 	"claudeCode.preferredLocation": "panel",
 	"claudeCode.useTerminal": true,
+	"docker.extension.dockerEngineAvailabilityPrompt": false,
 }

@@ -1,4 +1,4 @@
-# dotfiles
+# My dotfiles
 
 Using [chezmoi](https://www.chezmoi.io) to manage my dotfiles
 
@@ -6,8 +6,7 @@ Using [chezmoi](https://www.chezmoi.io) to manage my dotfiles
 
 ### Install mise
 
-https://mise.jdx.dev/installing-mise.html
-
+<https://mise.jdx.dev/installing-mise.html>
 
 ### Init chezmoi
 
@@ -19,6 +18,7 @@ mise x chezmoi -- chezmoi init --apply awkewainze
 ```
 
 Can use same to ensure chezmoi is available if in broken state
+
 ```sh
 mise x chezmoi -- chezmoi apply -v
 ```
