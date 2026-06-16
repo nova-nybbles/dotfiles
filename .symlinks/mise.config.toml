@@ -6,7 +6,7 @@ erlang = "latest"
 fnox = "latest"
 go = "latest"
 lua = "latest"
-node = { version = "latest", postinstall = "npm install -g @anthropic/claude-code" }
+node = "latest"
 "npm:@devcontainers/cli" = "latest"
 pitchfork = "latest"
 rust = "latest"
@@ -17,6 +17,7 @@ elixir = "latest"
 communique = "latest"
 watchexec = "latest"
 gleam = "latest"
+"cargo:jj-cli" = "latest"
 
 [settings]
 experimental = true
