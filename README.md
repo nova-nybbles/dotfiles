@@ -14,7 +14,7 @@ Ironically, use `mise` to initialize `chezmoi` to configure `mise`
 
 ```sh
 # use mise to run chezmoi once to configure mise, enabling chezmoi globally through mise
-mise x chezmoi -- chezmoi init --apply awkewainze
+mise x chezmoi -- chezmoi init --apply nova-nybbles
 ```
 
 Can use same to ensure chezmoi is available if in broken state
