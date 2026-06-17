@@ -19,6 +19,9 @@ watchexec = "latest"
 gleam = "latest"
 "cargo:jj-cli" = "latest"
 "go:github.com/charmbracelet/vhs" = "latest"
+ripgrep = "latest"
+gh = "latest"
+yq = "latest"
 
 [settings]
 experimental = true
