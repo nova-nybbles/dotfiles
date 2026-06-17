@@ -18,6 +18,7 @@ communique = "latest"
 watchexec = "latest"
 gleam = "latest"
 "cargo:jj-cli" = "latest"
+"go:github.com/charmbracelet/vhs" = "latest"
 
 [settings]
 experimental = true
